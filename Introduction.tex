@@ -1,0 +1,55 @@
+\documentclass[a4paper,14pt]{article}
+
+\usepackage[cp1251]{inputenc}
+\usepackage[english, russian]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{stmaryrd}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{bbm}
+\usepackage[T1]{fontenc}
+\usepackage[left=3.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm,bindingoffset=0cm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+
+\sloppy 			
+%\textwidth = 16 cm		
+%\textheight = 22 cm		
+%\oddsidemargin = 0 cm	
+%\topmargin = 0 cm		
+%\headheight = 0 cm		
+%\headsep = 0 cm	
+
+\ifpdf 	
+   \usepackage[pdftex]{graphicx}
+\else
+   \usepackage{graphicx}
+\fi	
+
+\begin{document}
+
+\author{Максим Сергеевич Ложкин}
+\title{Introduction}
+\date{2015_12_07}
+
+\section{Introduction}
+
+There are many different methods which involve backscattered electrons (BSE) for internal structure analysis of solids: the collecting of electron beam induced characteristic x-ray \cite{bib:Bishop_edx}, using BSE coefficient changes \cite{bib:Haimovich}, BSE energy spectra analysis by the means of additional spectrometer \cite{bib:Niedrig_Rau,bib:Rau_method,bib:Zhenyu_method} and others. 
+
+The general suppose of all these methods is what the signal of interest depends on primary beam electron's maximum penetration range and connected BSE escape depth. A commonly used expression which associates penetration depth with scattering material parameters were offered by $Kanaya$ and $Okayama$ \cite{bib:Kanaya_Okayama}. 
+
+
+
+\begin{thebibliography}{SGA7}
+\bibitem{bib:Bishop_edx} Bishop H.E., Poole D.M. "A simple method of thin film analysis in the electron probe microanalyser" (Journal of Physics D: Applied Physics Vol. 6 pp. 1142-1158, 1973)
+\bibitem{bib:Haimovich} Haimovich J., Leibold K., Staudt G. "Estimating and Measuring Thickness of Thin Layers by Monte Carlo Simulation and Backscattered Electron Image Analysis" (AMP Journal of Technology Vol. 5 pp. 65-78, 1996)
+\bibitem{bib:Niedrig_Rau} Niedrig H., Rau E.I. "Information depth and spatial resolution in BSE microtomography in SEM" (Nuclear Instruments and Methods in Physics Research B Vol. 142 pp. 523-534, 1998)
+\bibitem{bib:Rau_method} Rau E.I., Hoffmeister H., Sennov R., Kohl H. "Comparison of experimental and Monte Carlo simulated BSE spectra of multilayered structures and "in-depth" measurements in a SEM" (Journal of Physics D: Applied Physics Vol. 35 Num. 12 pp. 1433–1437, 2002)
+\bibitem{bib:Zhenyu_method} Zhenyu T., Yueyuan X. "A Monte Carlo Study of the Thickness Determination of Ultra-Thin Films" (Scanning Vol.24 pp. 257-263, 2002)
+\bibitem{bib:Kanaya_Okayama} Kanaya K., Okayama S.  "Penetration and energy-loss theory of electrons in solid targets" (Journal of Applied Physics, Vol.5, 1972)
+
+\end{thebibliography}
+
+\end{document}
+
